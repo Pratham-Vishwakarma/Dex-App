@@ -1,0 +1,18 @@
+[package]
+name = "liquidity_pool"
+version = "0.1.0"
+authors = ["Pratham Vishwakarma pratham.vishwakarma125940@gmail.com"]
+description = "A liquidity pool smart contract"
+license = "Apache-2.0"
+
+[addresses]
+send_message = "0x58aa8211eeb190a33c02f52365b27612f8d3e786d679454eee39b29d0014b012"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
+

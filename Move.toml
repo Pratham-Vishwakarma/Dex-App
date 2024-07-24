@@ -1,0 +1,16 @@
+[package]
+name = "dexapp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+send_message="0xdc8624d07a87bfac07636bbb7f71de815d066575b42e3c30e3482f9d91755f4a"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
